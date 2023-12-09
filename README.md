@@ -26,6 +26,6 @@
 
 ## Confusion Matrix - Accuracy Rate 96.67%
 
-![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/confusion_matrix.png)
+![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/confusion_matrix_v2.png)
 
 
