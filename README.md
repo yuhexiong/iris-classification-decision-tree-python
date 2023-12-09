@@ -8,6 +8,7 @@
 - Package: Scikit-Learn
 - Model: Decision Tree
 - Loss Function: Cross Entropy
+- Max Depth: 5, Min Samples Leaf: 3
 
 ## Data Distribution
 
@@ -26,6 +27,6 @@
 
 ## Confusion Matrix - Accuracy Rate 96.67%
 
-![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/confusion_matrix_v2.png)
+![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/confusion_matrix_v3.png)
 
 
