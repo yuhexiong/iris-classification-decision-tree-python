@@ -11,21 +11,21 @@
 
 ## Data Distribution
 
-![image]()
+![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/sepal_length_vs_width.png)
 
-![image]()
+![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/petal_length_vs_width.png)
 
-## Tree
+## Tree Plot
 
-![image]()
+![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/tree_plot.png)
 
 
 ## Correlation Matrix
 
-![image]()
+![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/correlation_matrix.png)
 
 ## Confusion Matrix - Accuracy Rate 96.67%
 
-![image]()
+![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/confusion_matrix.png)
 
 

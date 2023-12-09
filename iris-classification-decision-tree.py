@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
 import seaborn as sns
 
 iris = pd.read_csv("data/Iris.csv")
@@ -59,6 +60,16 @@ y_pred = clf.predict(X_test)
 print ("Accuracy:", accuracy_score(Y_test, y_pred)*100)
 print ("Report:",  classification_report(Y_test, y_pred))
 
+# confusion matrix
+cm = confusion_matrix(Y_test, y_pred)
+plt.figure(figsize=(8, 6))
+sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", xticklabels=iris["Species"].unique(), yticklabels=iris["Species"].unique())
+plt.title("Confusion Matrix")
+plt.xlabel("Predicted Label")
+plt.ylabel("True Label")
+plt.show()
+
+# tree plot
 plt.figure(figsize=(12, 8))
 plot_tree(clf)
 plt.show()
