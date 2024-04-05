@@ -38,7 +38,7 @@ fig=plt.gcf()
 fig.set_size_inches(10,6)
 plt.show()
 
-# heat map
+# correlation matrix
 plt.figure(figsize=(10,6)) 
 cmap = sns.color_palette("Blues", as_cmap=True)
 sns.heatmap(iris.corr(), annot=True, cmap=cmap, annot_kws={'size': 16})
