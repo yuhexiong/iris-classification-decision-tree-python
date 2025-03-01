@@ -10,23 +10,44 @@
 - Loss Function: Cross Entropy
 - Max Depth: 5, Min Samples Leaf: 3
 
+## Run
+
+### Run code
+```bash
+python iris-classification-decision-tree.py
+```
+
+
+### Run streamlit
+
+```bash
+streamlit run iris-classification-decision-tree-app.py
+```
+
+server running at `http://localhost:8501`
+
+## Data
+
+![Streamlit Data](./image/streamlit_data.png)
+
 ## Data Distribution
 
-![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/sepal_length_vs_width.png)
+![Streamlit Sepal](./image/streamlit_sepal_length_vs_width.png)
 
-![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/petal_length_vs_width.png)
-
-## Tree Plot
-
-![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/tree_plot.png)
-
+![Streamlit Petal](./image/streamlit_petal_length_vs_width.png)
 
 ## Correlation Matrix
 
-![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/correlation_matrix.png)
+![Streamlit Correlation Matrix](./image/streamlit_correlation_matrix.png)
 
 ## Confusion Matrix - Accuracy Rate 96.67%
 
-![image](https://github.com/yuhexiong/iris-classifiaction-decision-tree-python/blob/main/image/confusion_matrix_v3.png)
+![Streamlit Confusion Matrix](./image/streamlit_confusion_matrix.png)
+
+
+## Tree Plot
+
+![Streamlit Tree Plot](./image/streamlit_tree_plot.png)
+
 
 
